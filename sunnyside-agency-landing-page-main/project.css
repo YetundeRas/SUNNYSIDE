@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* border: 2px solid green; */
+    width: auto;
+    background-image: url('./images/desktop/image-header.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.header-nav{
+    /* border: 2px solid blueviolet; */
+    width: 20%;
+    display: flex;
+    color: white;
+    gap: 10%;
+    font-size: 18px;
+    cursor: pointer;
+}
+h6:hover{
+    color: hsl(167, 40%, 24%);
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+#arrow{
+    margin-top: 3%;
+}
+h1{
+    font-size: 300%;
+}
+#sunny{
+    margin-left: 20px;
+}
+.submain{
+    height: 70vh;
+    width: auto;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.subsub{
+    height: auto;
+    width: 50%;
+    text-align: left;
+    margin-top: 100px;
+}
+.subsub2{
+    height: 70vh;
+    width: 700px;
+    background-image: url('./images/desktop/image-transform.jpg');
+}
+#transform{
+    font-size: xx-large;
+    color: rgb(63, 63, 87);
+    margin-left: 200px;
+}
+#weare{
+    color: rgb(117, 117, 134);
+    font-size: smaller;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+}
+#learn{
+    display: inline;
+    font-size: small;
+    color: rgb(36, 36, 51);
+    border-bottom: 2px solid pink;
+    margin-left: 200px;
+}
+#learn:hover{
+    border-bottom: 2px solid yellow;
+}
+.main2{
+    height: 80vh;
+    width: auto;
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+}
+.maincup{
+    height: 80vh;
+    width: 49%;
+    background-image: url('./images/desktop/image-stand-out.jpg');
+}
+#stand{
+    font-size: 200%;
+    margin-top: 200px;
+    margin-left: 200px;
+    height: auto;
+    /* width: auto; */
+    color: rgb(63, 63, 87);
+}
+#using{
+    font-size: small;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    color: rgb(117, 117, 134);
+} 
+.main3{
+    /* border: 2px solid blue; */
+    height: 80vh;
+    width: auto;
+    display: flex;
+}
+.maingraph{
+    background-image: url('./images/desktop/image-graphic-design.jpg');
+    height: 80vh;
+    width: 50%;
+}
+#graph{
+    text-align: center;
+    padding-top: 400px;
+    font-size: x-large;
+}
+#great{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(117, 117, 134);
+    font-size: small;
+}
+.mainora{
+    background-image: url('./images/desktop/image-photography.jpg');
+    height: 80vh;
+    width: 50%;
+    text-align: center;
+}
+.testi{
+    /* border: 2px solid red; */
+    height: 60vh;
+    width: auto;
+    /* display: flex; */
+}
+#client{
+    font-size: large;
+    color: rgb(150, 150, 190);
+    text-align: center;
+    margin-top: 120px;
+}
+#weput{
+    font-size: small;
+    color: rgb(93, 93, 105);
+    margin-top: 20px;
+}
+#em{
+    margin-top: 50px;
+    color: rgb(57, 57, 66);
+    text-align: center;
+}
+#pos{
+    margin-top: 10px;
+    color: rgb(115, 115, 138);
+    text-align: center;
+}
+#pix{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+}
+.bo3{
+    display: flex;
+    justify-content: space-around;
+}
+.pictures{
+    height: 50vh;
+    width: auto;
+    /* border: 2px solid green; */
+    display: flex;
+    /* justify-content: safe; */
+}
+#bottle{
+    height: 50vh;
+    width: 336px;
+}
+#orange{
+    height: 50vh;
+    width: 337px;
+}
+#cone{
+    height: 50vh;
+    width: 336px;
+}
+#cube{
+    height: 50vh;
+    width: 336px;
+}
+.end{
+    /* border: 2px solid red; */
+    height: 40vh;
+    width: auto;
+    text-align: center;
+    background-color: hsl(167, 76%, 77%);
+    color: hsl(167, 40%, 24%);
+}
+#side{
+    font-size: x-large;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+#list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin-bottom: 70px;
+}
+#list li:hover{
+    cursor: pointer;
+    color: white;
+}
+.picv{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.picv:hover{
+    cursor: pointer;
+}
